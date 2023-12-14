@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:coverage": "jest --coverage",
-    "start": "webpack serve --mode development",
+    "test:coverage": "jest --coverage",    
+    "serve": "webpack serve --mode development",
+    "serve:coverage": "live-server coverage/lcov-report",
     "build": "webpack --mode production",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
